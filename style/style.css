@@ -29,6 +29,7 @@ body{
     pointer-events: none;
     border-radius: 10px;
     bottom: 0;
+    
 }
  .overlay-1{
     position: absolute;
@@ -109,6 +110,7 @@ section{
 .nav-items ul li .home{
     font-weight: bold;
 }
+
 /* Banner section */
 
 .banner{
@@ -330,7 +332,7 @@ section{
         transform: rotate(360deg);
     }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
     #hidden-nav{
         display: none;
     }
@@ -383,6 +385,7 @@ section{
     display: flex;
     flex-direction: column;
     gap: 0;
+    margin-bottom: 40px;
 }
 .section7 .footer-icon img{
     margin: 0;
@@ -393,5 +396,41 @@ section{
 }
 .image-text a{
     font-size: 16px;
+}
+
+.nav-bar ul{
+    width: 100%;
+}
+#cart{
+    font-size: 20px;
+    white-space: no-wrap;
+    
+}
+#image3, #image2, #image1, .overlay{
+    max-width: 360px;
+    height: auto;
+    margin: 5px 0;
+}
+.join-section{
+    padding: 100px 20px;
+}
+.join-section h3{
+    font-size: 24px;
+    
+}
+.join-sec-input button{
+    padding: 5px 20px;
+    
+}
+.banner-right img{
+    max-width: 1;
+    display: block;
+    margin: 0 auto;
+}
+.overlay{
+    max-width: none;
+}
+.nav-items ul li #cart{
+    white-space: nowrap;
 }
 }
