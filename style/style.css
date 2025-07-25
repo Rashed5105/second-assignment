@@ -157,12 +157,13 @@ section{
     
 }
 .card{
-    border: 1px splid rgba(0, 0, 0, 0.534);
+    
     border-radius: 10px;
 }
 .flower-card-bottom img{
     margin-bottom: 15px;
     border-radius: 2%;
+    width: 100%;
 }
 .flower-card-bottom h1{
     font-family: "inter";
@@ -186,22 +187,26 @@ section{
 }
 .flower-lover{
     display: flex;
-    gap: 60px;
+    gap: 70px;
     align-items: center;
     position:relative;
+    
 }
 .flower-store{
     
 }
 .badge{
     position: absolute;
-    width: 286px;
+    max-width: 286px;
     height: 286px;
-    background-color: transparent;
-  
+    top: -120px;
+    left: 370px;
+    background: transparent;
 }
 .badge img{
     width: 100%;
+    background: transparent;
+    
 }
 .flower-lover img{
     border-radius: 2%;
@@ -252,3 +257,16 @@ section{
     border-radius: 10px;
 } 
 
+@media screen and (max-width: 576px) {
+    .flower-card-bottom{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    
+    
+}
+.banner{
+    display: flex;
+    flex-direction: column-reverse;
+}
+}
