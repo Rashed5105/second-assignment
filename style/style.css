@@ -120,6 +120,8 @@ section{
 
 .banner-right img{
     display: block;
+    width: 100%;
+
 }
 
 .banner-left h3{
@@ -135,6 +137,10 @@ section{
     font-family: "inter";
     color: rgba(0, 0, 0, 0.5);
     width: 75%;
+}
+.flower-card{
+    width: 100%;
+    margin: auto;
 }
 .flower-card-top{
     text-align: center;
@@ -194,6 +200,8 @@ section{
     gap: 70px;
     align-items: center;
     position:relative;
+    width: 100%;
+    margin: auto;
     
 }
 
@@ -348,6 +356,7 @@ section{
     gap: 25px;
     
     
+    
 }
 .banner{
     display: flex;
@@ -361,10 +370,7 @@ section{
 section{
     margin-top: 56px;
 }
-.container{
-    margin: auto 18px;
-    
-}
+
 .flower-lover{
     display: flex;
     flex-direction: column;
@@ -385,7 +391,7 @@ section{
     display: flex;
     flex-direction: column;
     gap: 0;
-    margin-bottom: 40px;
+    padding: 50px 0;
 }
 .section7 .footer-icon img{
     margin: 0;
@@ -398,18 +404,16 @@ section{
     font-size: 16px;
 }
 
-.nav-bar ul{
-    width: 100%;
-}
+
 #cart{
     font-size: 20px;
-    white-space: no-wrap;
+    
     
 }
 #image3, #image2, #image1, .overlay{
-    max-width: 360px;
+    max-width: 100%;
     height: auto;
-    margin: 5px 0;
+    
 }
 .join-section{
     padding: 100px 20px;
@@ -432,5 +436,11 @@ section{
 }
 .nav-items ul li #cart{
     white-space: nowrap;
+}
+.xyz img{
+    width: 100%;
+}
+.responsive-margin{
+    margin: 0 18px;
 }
 }
