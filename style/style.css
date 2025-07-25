@@ -294,9 +294,28 @@ section{
     color: white;
     
 }
-
-
-
+.section7{
+    display: flex;
+    gap: 110px;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.section7 .footer-logo{
+    margin-bottom: 20px;
+}
+.section7 p, li{
+    color: rgba(0, 0, 0, 0.568);
+}
+.section7 .footer-about{
+    max-width: 360px;
+}
+.section7 ul li{
+    list-style: none;
+    margin-bottom: 26px;
+}
+.section7 .footer-icon img{
+    margin-left: 20px;
+}
 
 
 @media screen and (max-width: 576px) {
