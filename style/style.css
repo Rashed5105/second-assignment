@@ -206,6 +206,7 @@ section{
 .badge img{
     width: 100%;
     background: transparent;
+    animation: spin 6s linear infinite;
     
 }
 .flower-lover img{
@@ -317,7 +318,14 @@ section{
     margin-left: 20px;
 }
 
-
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 @media screen and (max-width: 576px) {
     .flower-card-bottom{
     display: grid;
